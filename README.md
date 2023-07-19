@@ -34,5 +34,15 @@ make
 ```
 
 To modify the input to the FHE program, edit the beginning of the `main`
-function in file `backends/coil/main.cpp`. We should have a better way of
-handling input later.
+function in file `backends/coil/main.cpp`.
+
+In the `taype` branch, we can specify the input by providing the input file, and
+we can also write the result to an output file:
+
+``` sh
+# input and output files are optional
+./linear_oram.coil input output
+```
+
+The format of these files is very simple: just a list of numbers separated by
+white space. The numbers specify the input and output arrays.
