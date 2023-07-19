@@ -2,11 +2,11 @@
 
 ## Build and test coil
 
-The `Dockerfile` shows how to install the dependencies. To build this
+The file `Dockerfile.coil` shows how to install the dependencies. To build this
 docker image, run:
 
 ``` sh
-docker build -t coil-image .
+docker build -f Dockerfile.coil -t coil-image .
 ```
 
 The image does not include the coil source code, as it is more convenient for
