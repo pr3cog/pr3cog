@@ -1,0 +1,5 @@
+if [ -z "$SETUP_PR3COG_DONE" ]; then
+  export SETUP_PR3COG_DONE=1
+else
+  return
+fi
