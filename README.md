@@ -167,9 +167,9 @@ echo 9 2 3 12 6 8 7 1 4 5 0 10 21 16 30 13 6 > input
 # Experimenting with Taype and Coil integration
 
 The Taype compiler is also able to generate FHE programs from high-level Taype
-source code, by integrating the Coil compiler. A set of Taype examples using the
-Coil driver can be found at `~/taype/examples/coil/coil.tp`. For instance, to
-build and execute the `test_elem` example, run:
+source code, by integrating the Coil compiler. A set of Taype examples that use
+the Coil driver can be found at `~/taype/examples/coil/coil.tp`. For instance,
+to build and execute the `test_elem` example, run:
 
 ``` sh
 cabal run shake -- build/coil
