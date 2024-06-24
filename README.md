@@ -100,7 +100,7 @@ cabal run shake -- build/tutorial
 ```
 
 We can manually run a compiled test case, e.g., `test_elem` with the provided
-exmaple input files:
+example input files:
 
 ``` sh
 cd examples/tutorial
